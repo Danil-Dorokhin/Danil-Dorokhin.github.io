@@ -1,20 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+
+import MainPart from "../MainPart";
 
 import "./App.css";
 
 const App = () => {
+    const [language, setLanguage] = useState("eng");
+    const handleLanguage = (newLang) => {
+        setLanguage(newLang);
+    };
+
     return (
         <div className="Container">
-            <p>RUS/ENG</p>+
-            <p>----------------------</p>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.A_RtQRl3ALKzklz-D1zCsAHaEK%26pid%3DApi&f=1" />
-            <p>Dorokhin Danil</p>+
-            <p>----------------------</p>
-            <p>[Git][Vk]</p>
-            <p>----------------------</p>
-            <p>About me</p>
-            <p>----------------------</p>
-            <p>Grid with my skills</p>+
+            <MainPart lang={language} handleLanguage={handleLanguage} />
+            <h2>Grid with my skills</h2>
             <p>----------------------</p>
             <p>My Projects</p>
             <p>----------------------</p>
