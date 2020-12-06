@@ -2,13 +2,14 @@ const myData = {
     myName: { eng: "Danil Dorokhin", ru: "Данил Дорохин" },
     //
     aboutMeTitle: {
-        eng: "Обо мне",
-        ru: "About me",
+        ru: "Обо мне",
+        eng: "About me",
     },
     aboutMe: {
         eng:
-            "Information about me, here im going to tell something about what kind of person i am and what are my goals",
-        ru: "Информация о том, кто я такой и какими личными качествами обладаю",
+            "Responsible and stress-resistant developer with with extreme perseverance, high ability to learn and strong motivation to grow as a professional.",
+        ru:
+            "Отвественный и стрессоустойчивый разработчик, обладающий экстремальным упорством, высокой обучаемостью и сильной мотивацией к профессиональному росту.",
     },
     //
     skillsTitle: {
@@ -24,6 +25,7 @@ const myData = {
         "CSS",
         "Python",
         "Linux",
+        "English(B1-B2)",
     ],
     //
     projectsTitle: {

@@ -5,7 +5,7 @@ import "./LanguageButtons.css";
 const LanguageButtons = ({ lang, handleLanguage }) => {
     const whatLang = lang == "eng";
     return (
-        <div>
+        <div class='lang-btn-container'>
             <button
                 type="button"
                 class={

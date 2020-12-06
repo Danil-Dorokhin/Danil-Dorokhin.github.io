@@ -11,9 +11,12 @@ const App = () => {
     };
 
     return (
-        <div className="Container">
+        <div className="app-container">
             <MainPart lang={language} handleLanguage={handleLanguage} />
             <h2>Grid with my skills</h2>
+            <p class="btn btn-primary">Button</p>
+            <p class="btn btn-primary">Button</p>
+            <p class="btn btn-primary">Button</p>
             <p>----------------------</p>
             <p>My Projects</p>
             <p>----------------------</p>
