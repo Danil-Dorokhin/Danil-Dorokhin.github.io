@@ -1,0 +1,28 @@
+.fa {
+    font-size: 30px;
+    margin-right: 20px;
+}
+@keyframes on-buttons-hover {
+    from {
+        color: black;
+    }
+    to {
+        color: crimson;
+    }
+}
+.fa:hover {
+    color: crimson;
+    animation-name: on-buttons-hover;
+    animation-duration: 500ms;
+}
+
+.card-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: min-content;
+    height: min-content;
+    padding: 30px;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}

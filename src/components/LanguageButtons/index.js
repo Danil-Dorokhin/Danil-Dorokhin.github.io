@@ -1,3 +1,3 @@
-import LanguageButtons from './LanguageButtons.js';
+import LanguageButtons from './LanguageButtons';
 
 export default LanguageButtons;
