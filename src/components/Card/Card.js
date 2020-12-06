@@ -13,7 +13,7 @@ const Card = ({ lang }) => {
             <p style={{ width: 500, fontSize: 18 }} className="mb-0">
                 {myData.aboutMe[lang]}
             </p>
-            <div className='btn-container'>
+            <div className="btn-container">
                 <a href="https://github.com/Danil-Dorokhin">
                     <i className="fa fa-github "></i>
                 </a>
