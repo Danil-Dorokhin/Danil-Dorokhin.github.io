@@ -55,18 +55,37 @@ const myData = {
         {
             eng: {
                 companyName: "Devsteam.mobi.",
-                companyDescription: "React-native development company.",
+                jobDescription:
+                    "React-native development company. What was achieved during internship:",
                 myRole: "Frontend developer intern.",
-                whatAchieved: [1, 2, 3, 4, 5],
+                achieved: [1, 3, 4, 5, 6],
                 time: ["June 2020", "November 2020"],
             },
             ru: {
                 companyName: "Devsteam.mobi.",
-                companyDescription:
-                    "Компания, специализирующаяся на разработке мобильных приложений на React-native.",
+                jobDescription:
+                    "Компания, специализирующаяся на разработке мобильных приложений на React-native. В ходе стажировки было достигнуто:",
                 myRole: "Стажер frontend разработчик.",
-                whatAchieved: [1, 2, 3, 4, 5],
                 time: ["Июнь 2020", "Ноябрь 2020"],
+                achieved: [1, 3, 4, 5, 6],
+            },
+        },
+        {
+            eng: {
+                companyName: "Devsteam.mobi.",
+                jobDescription:
+                    "React-native development company. What was achieved during internship:",
+                myRole: "Frontend developer intern.",
+                achieved: [1, 3, 4, 5, 6],
+                time: ["June 2020", "November 2020"],
+            },
+            ru: {
+                companyName: "Devsteam.mobi.",
+                jobDescription:
+                    "Компания, специализирующаяся на разработке мобильных приложений на React-native. В ходе стажировки было достигнуто:",
+                myRole: "Стажер frontend разработчик.",
+                time: ["Июнь 2020", "Ноябрь 2020"],
+                achieved: [1, 3, 4, 5, 6],
             },
         },
     ],
