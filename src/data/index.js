@@ -56,36 +56,19 @@ const myData = {
             eng: {
                 companyName: "Devsteam.mobi.",
                 jobDescription:
-                    "React-native development company. What was achieved during internship:",
+                    "React-native development company. Most important things achieved during internsip:",
                 myRole: "Frontend developer intern.",
-                achieved: [1, 3, 4, 5, 6],
+                achieved: ["Improved my JS and React skills", "Learned to use git", "Learned to use MacOS and Xcode", "Learned to publish app via google console and apple connect", "Get used to work with someone else's code"],
                 time: ["June 2020", "November 2020"],
             },
+            
             ru: {
                 companyName: "Devsteam.mobi.",
                 jobDescription:
                     "Компания, специализирующаяся на разработке мобильных приложений на React-native. В ходе стажировки было достигнуто:",
                 myRole: "Стажер frontend разработчик.",
                 time: ["Июнь 2020", "Ноябрь 2020"],
-                achieved: [1, 3, 4, 5, 6],
-            },
-        },
-        {
-            eng: {
-                companyName: "Devsteam.mobi.",
-                jobDescription:
-                    "React-native development company. What was achieved during internship:",
-                myRole: "Frontend developer intern.",
-                achieved: [1, 3, 4, 5, 6],
-                time: ["June 2020", "November 2020"],
-            },
-            ru: {
-                companyName: "Devsteam.mobi.",
-                jobDescription:
-                    "Компания, специализирующаяся на разработке мобильных приложений на React-native. В ходе стажировки было достигнуто:",
-                myRole: "Стажер frontend разработчик.",
-                time: ["Июнь 2020", "Ноябрь 2020"],
-                achieved: [1, 3, 4, 5, 6],
+                achieved: ["Повысил навыки работы с JS и React-native", "Научился пользоваться Git", " Освоил Mac OS и Xcode", "Научился публиковать приложение в google console и apple connect", "научился разбираться в чужом коде"],
             },
         },
     ],

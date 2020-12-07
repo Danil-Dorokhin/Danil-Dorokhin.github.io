@@ -1,0 +1,27 @@
+.experience-item-container{
+    padding: 10px;
+    text-align: left;
+    width:500px
+}
+.role-and-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 20px;
+    align-items: center;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    font-size: 15px;
+    justify-content: space-between   
+}
+.line-separator{
+    background-color: black;
+    height: 2px;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}

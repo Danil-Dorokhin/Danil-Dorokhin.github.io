@@ -3,7 +3,7 @@ import React from "react";
 import "./LanguageButtons.css";
 
 const LanguageButtons = ({ lang, handleLanguage }) => {
-    const whatLang = lang == "eng";
+    const whatLang = lang === "eng";
     return (
         <div class="lang-btn-container">
             <button
