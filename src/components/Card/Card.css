@@ -1,10 +1,24 @@
+.card-container {
+    width: min-content;
+    height: min-content;
+    padding: 30px;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+}
+
 .fa {
     font-size: 30px;
     margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(230,230,230);
 }
 @keyframes on-buttons-hover {
     from {
-        color: black;
+        color: rgb(230,230,230)
     }
     to {
         color: crimson;
@@ -15,21 +29,44 @@
     animation-name: on-buttons-hover;
     animation-duration: 500ms;
 }
-
-.card-container {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: min-content;
-    height: min-content;
-    padding: 30px;
-    border-radius: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20vh;
+.blurred-box {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    top: calc(15%);
+    left: calc(50% - 275px);
+    background: inherit;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
-.btn-container {
-    margin-top: 10px;
-    margin-left: auto;
+.blurred-box:after {
+    content: "";
+    width: 600px;
+    height: 400px;
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    top: -25px;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    filter: blur(10px);
+}
+
+.about-me-content {
+    position: relative;
+    margin-top: 50px;
     margin-right: auto;
-    width: max-content;
+    margin-left: auto;
+    z-index: 1;
+    width: min-content;
+    text-align: center;
+}
+.about-me-content > p {
+    color: rgb(200,200,200);
+}
+.about-me-content > h1 {
+    color: white
+}
+.about-me-content > h3 {
+    color: white
 }
