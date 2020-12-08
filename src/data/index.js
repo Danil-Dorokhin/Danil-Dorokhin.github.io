@@ -36,7 +36,7 @@ const myData = {
         {
             name: "Classical Music",
             image:
-                "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.A_RtQRl3ALKzklz-D1zCsAHaEK%26pid%3DApi&f=1",
+                "https://praxistipps-images.chip.de/dX1iOl5Rgq6_rgbwS_6jaGtuwyI=/0x0/filters:no_upscale():format(jpeg)/praxistipps.s3.amazonaws.com%2Fandroid-screenshot-erstellen_d89173e8.png%3F5ad092a9b746a",
             description: {
                 eng:
                     "React-native classical music player for iOS and Android. It was developed during my internship in devsteam.mobi.",

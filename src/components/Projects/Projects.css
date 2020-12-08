@@ -1,0 +1,81 @@
+.project-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-part {
+    width: 100%;
+    height: max-content;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url("../MainPart/mainImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.project-card {
+    width: 400px;
+    background-color: rgb(240, 240, 240);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    margin-top: 25px;
+}
+.project-name {
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.project-name > h4 {
+    color: rgb(240, 240, 240);
+}
+.project-card-body {
+    display: flex;
+    flex-direction: row;
+}
+.project-card-description {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+.project-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+
+.project-icons > a > .fa {
+    font-size: 30px;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+}
+@keyframes on-buttons-hover {
+    from {
+        color: black;
+    }
+    to {
+        color: crimson;
+    }
+}
+.project-icons > a > .fa:hover {
+    color: crimson;
+    animation-name: on-buttons-hover;
+    animation-duration: 500ms;
+}
+.project-card-screenshot {
+    width: 250px;
+    height: 450px;
+    margin: 5px;
+}

@@ -5,10 +5,10 @@ import "./LanguageButtons.css";
 const LanguageButtons = ({ lang, handleLanguage }) => {
     const whatLang = lang === "eng";
     return (
-        <div class="lang-btn-container">
+        <div className="lang-btn-container">
             <button
                 type="button"
-                class={
+                className={
                     whatLang ? "btn btn-secondary" : "btn btn-outline-secondary"
                 }
                 onClick={() => handleLanguage("eng")}
@@ -17,7 +17,7 @@ const LanguageButtons = ({ lang, handleLanguage }) => {
             </button>
             <button
                 type="button"
-                class={
+                className={
                     whatLang ? "btn btn-outline-secondary" : "btn btn-secondary"
                 }
                 onClick={() => handleLanguage("ru")}

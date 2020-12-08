@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className="skills-container">
             {myData.skills.map((skill) => {
-                return <div className="skill">{skill}</div>;
+                return <div className="skill" key={skill}>{skill}</div>;
             })}
         </div>
     );
