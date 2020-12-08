@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 import MainPart from "../MainPart";
+import Projects from "../Projects";
 import SecondaryPart from "../SecondaryPart";
+
 
 import "./App.css";
 
@@ -15,9 +17,7 @@ const App = () => {
         <div className="app-container">
             <MainPart lang={language} handleLanguage={handleLanguage} />
             <SecondaryPart lang={language} />
-            <p>My Projects</p>
-            <p>----------------------</p>
-            <p>----------------------</p>
+            <Projects lang={language}/>
             <p>Contacts</p>
         </div>
     );

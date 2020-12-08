@@ -32,8 +32,8 @@ const myData = {
         eng: "My works.",
         ru: "Мои работы.",
     },
-    projects: {
-        ClassicalMusic: {
+    projects: [
+        {
             name: "Classical Music",
             image:
                 "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.A_RtQRl3ALKzklz-D1zCsAHaEK%26pid%3DApi&f=1",
@@ -45,7 +45,7 @@ const myData = {
             },
             url: "https://apps.apple.com/us/app/id1532389989#?platform=iphone",
         },
-    },
+    ],
     //
     myExperienceTitle: {
         eng: "My experience.",
