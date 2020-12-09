@@ -36,7 +36,7 @@ const myData = {
         {
             name: "Classical Music",
             image:
-                "https://praxistipps-images.chip.de/dX1iOl5Rgq6_rgbwS_6jaGtuwyI=/0x0/filters:no_upscale():format(jpeg)/praxistipps.s3.amazonaws.com%2Fandroid-screenshot-erstellen_d89173e8.png%3F5ad092a9b746a",
+                "classicalMusic.jpg",
             description: {
                 eng:
                     "React-native classical music player for iOS and Android. It was developed during my internship in devsteam.mobi.",

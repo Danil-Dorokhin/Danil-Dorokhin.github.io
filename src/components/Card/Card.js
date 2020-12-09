@@ -23,13 +23,13 @@ const Card = ({ lang }) => {
                 </p>
                 <div className="btn-container">
                     <a href="https://github.com/Danil-Dorokhin">
-                        <i className="fa fa-github "></i>
+                        <i className="fa fa-github animated"></i>
                     </a>
                     <a href="https://vk.com/hatheg_kla">
-                        <i className="fa fa-vk "></i>
+                        <i className="fa fa-vk animated"></i>
                     </a>
                     <a href="https://t.me/dorokhinD">
-                        <i className="fa fa-telegram"></i>
+                        <i className="fa fa-telegram animated"></i>
                     </a>
                 </div>
             </div>

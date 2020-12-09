@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import MainPart from "../MainPart";
 import Projects from "../Projects";
 import SecondaryPart from "../SecondaryPart";
+import Footer from "../Footer";
 
 
 import "./App.css";
@@ -18,7 +19,7 @@ const App = () => {
             <MainPart lang={language} handleLanguage={handleLanguage} />
             <SecondaryPart lang={language} />
             <Projects lang={language}/>
-            <p>Contacts</p>
+            <Footer lang={language}/>
         </div>
     );
 };

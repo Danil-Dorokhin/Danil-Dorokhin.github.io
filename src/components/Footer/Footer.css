@@ -1,0 +1,43 @@
+.footer-container {
+    background-color: rgb(50, 50, 50);
+    color: rgb(240, 240, 240);
+    height: 200px;
+    width: 100%;
+}
+.up-button {
+    background-color: rgb(50, 50, 50);
+    border-color: rgb(240, 240, 240);
+    border-width: 3px;
+    border-radius: 100px;
+    position: relative;
+    left: calc(50% - 25px);
+    bottom: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+.fa-arrow-up {
+    font-size: 40px;
+}
+@keyframes up-button-hover {
+    from {
+        color: rgb(230, 230, 230);
+        border-color: rgb(230, 230, 230);
+    }
+    to {
+        color: crimson;
+        border-color: crimson;
+    }
+}
+
+.up-button:hover {
+    border-color: crimson;
+    animation-name: up-button-hover;
+    animation-duration: 500ms;
+    color: crimson;
+}
+
+	
+
+button:focus{outline:0}
