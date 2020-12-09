@@ -1,8 +1,8 @@
 .footer-container {
     background-color: rgb(50, 50, 50);
     color: rgb(240, 240, 240);
-    height: 200px;
     width: 100%;
+    padding-bottom: 5px;
 }
 .up-button {
     background-color: rgb(50, 50, 50);
@@ -10,7 +10,7 @@
     border-width: 3px;
     border-radius: 100px;
     position: relative;
-    left: calc(50% - 25px);
+    left: calc(50% - 40px);
     bottom: 30px;
     width: 70px;
     height: 70px;
@@ -30,7 +30,6 @@
         border-color: crimson;
     }
 }
-
 .up-button:hover {
     border-color: crimson;
     animation-name: up-button-hover;
@@ -38,6 +37,39 @@
     color: crimson;
 }
 
-	
+button:focus {
+    outline: 0;
+}
 
-button:focus{outline:0}
+.footer-header {
+    width: min-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-header > h3 {
+    color: rgb(240, 240, 240);
+}
+.designed-by {
+    width: 100%;
+    text-align: center;
+}
+.designed-by > p {
+    color: rgb(150, 150, 150);
+}
+.footer-container > .line-separator {
+    background-color: rgb(150, 150, 150);
+    width: 400px;
+}
+.contact{
+    display: flex;
+    width: max-content;
+}
+.contact > p {
+    margin-left: 15px;
+}
+.contacts {
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}

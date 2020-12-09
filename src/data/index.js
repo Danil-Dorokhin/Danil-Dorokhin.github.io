@@ -1,10 +1,6 @@
 const myData = {
-    myName: { eng: "Danil Dorokhin.", ru: "Данил Дорохин." },
+    myName: { eng: "Hello, i am Danil Dorokhin.", ru: "Привет, я Данил Дорохин." },
     //
-    aboutMeTitle: {
-        ru: "Обо мне.",
-        eng: "About me.",
-    },
     aboutMe: {
         eng:
             "Responsible and stress-resistant developer with with extreme perseverance, high ability to learn and strong motivation to grow as a professional.",
@@ -74,8 +70,8 @@ const myData = {
     ],
     //
     myContactsTitle: {
-        eng: "Contacts.",
-        ru: "Контактная информация.",
+        eng: "Contacts",
+        ru: "Контакты",
     },
     myContacts: {
         phone: "+7 705 464 20 89",
