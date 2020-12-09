@@ -14,11 +14,11 @@
     font-size: 30px;
     margin-right: 20px;
     margin-top: 20px;
-    color: rgb(230,230,230);
+    color: rgb(230, 230, 230);
 }
 @keyframes on-buttons-hover {
     from {
-        color: rgb(230,230,230)
+        color: rgb(230, 230, 230);
     }
     to {
         color: crimson;
@@ -62,11 +62,11 @@
     text-align: center;
 }
 .about-me-content > p {
-    color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
 }
 .about-me-content > h1 {
-    color: white
+    color: white;
 }
 .about-me-content > h3 {
-    color: white
+    color: white;
 }

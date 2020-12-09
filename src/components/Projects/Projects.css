@@ -11,7 +11,7 @@
     height: max-content;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-image: url("../MainPart/mainImage.jpg");
+    background-image: url("../../mainImage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;

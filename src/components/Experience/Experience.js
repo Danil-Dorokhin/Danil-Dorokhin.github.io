@@ -5,7 +5,7 @@ import "./Experience.css";
 
 const ExperienceItem = ({ lang, exp }) => {
     return (
-        <div className="experience-item-container" >
+        <div className="experience-item-container">
             <div className="line-separator" />
             <h3>{exp[lang].companyName}</h3>
 
@@ -30,7 +30,11 @@ const Experience = ({ lang }) => {
     return (
         <div className="experience">
             {myData.myExperience.map((exp) => (
-                <ExperienceItem lang={lang} exp={exp} key={exp[lang].companyName}/>
+                <ExperienceItem
+                    lang={lang}
+                    exp={exp}
+                    key={exp[lang].companyName}
+                />
             ))}
         </div>
     );

@@ -1,6 +1,7 @@
 import React from "react";
 
 import myData from "../../data";
+import Contacts from "../Contacts";
 
 import "./Footer.css";
 
@@ -30,24 +31,7 @@ const Footer = ({ lang }) => {
                 <h3>{myData.myContactsTitle[lang]}</h3>
             </div>
             <div className="line-separator" />
-            <div className="contacts">
-                <div className="contact">
-                    <i className="fa fa-envelope" />
-                    <p>{myData.myContacts.gmail}</p>
-                </div>
-                <div className="contact">
-                    <i className="fa fa-github" />
-                    <p>{myData.myContacts.github}</p>
-                </div>
-                <div className="contact">
-                    <i className="fa fa-telegram" />
-                    <p>{myData.myContacts.telegram}</p>
-                </div>
-                <div className="contact">
-                    <i className="fa fa-phone" />
-                    <p>{myData.myContacts.phone}</p>
-                </div>
-            </div>
+            <Contacts />
             <div className="line-separator" />
             <div className="designed-by">
                 <p>Designed by Danil Dorokhin</p>

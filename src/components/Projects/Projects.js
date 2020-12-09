@@ -41,7 +41,13 @@ const Projects = ({ lang }) => {
     return (
         <div className="project-part">
             <div className="project-row">
-                {myData.projects.map((project)=><ProjectCard project={project} lang={lang} key={project.name}/>)}
+                {myData.projects.map((project) => (
+                    <ProjectCard
+                        project={project}
+                        lang={lang}
+                        key={project.name}
+                    />
+                ))}
             </div>
         </div>
     );
