@@ -22,6 +22,8 @@ const myData = {
         "Redux",
         "HTML",
         "CSS",
+        "Typescript",
+        "Jest",
         "Python",
         "Linux",
         "English(B1-B2)",
